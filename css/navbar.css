@@ -1,0 +1,84 @@
+/* Nav block begin*/
+nav {
+  font-size: 14px;
+  font-weight: 700;
+  width: 221px;
+  height: 100%;
+  background: #f2f2f2;
+  padding-top: 18px;
+  position: relative;
+  float: left;
+}
+
+.sub {
+  padding: 14px 0 0 26px;
+}
+
+#navbar {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  width: 221px;
+}
+
+#navbar li {
+  margin-top: 11px;
+}
+
+#navbar, #navbar ul {
+  margin-top: -12px;
+margin-left: -7px;
+  list-style: none;
+  padding: 0;
+  width: 221px;
+}
+
+#navbar li ul {
+  margin-top: 18px;
+  margin-left: -22px;
+}
+
+#navbar li a {
+  background-color: #f2f2f2;
+  color: #666666;
+  display: block;
+  font-size: 14px;
+  line-height: 10px;
+  outline: 0;
+  text-decoration: none;
+  text-align: left;
+}
+
+#navbar li a img {
+  border-width: 0px;
+  width: 22px;
+  height: 19px;
+  line-height: 28px;
+  margin-top: -2px;
+  margin-right: 8px;
+  vertical-align: middle;
+}
+
+#navbar li a:hover {
+  background-color: #f2f2f2;
+}
+
+#navbar ul li a {
+  margin-top: 11px;
+  background-color: #f2f2f2;
+  color: #666666;
+  font-size: 14px;
+  line-height: 9px;
+  padding-left: 53px;
+  padding-bottom: 9px;
+}
+
+#navbar li ul li a {
+  font-weight: 400;
+  font-size: 12px;
+}
+
+#s-cat ul li {
+  margin-top: -5px;
+}
+/* Nav block end*/

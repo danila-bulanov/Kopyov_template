@@ -1,0 +1,388 @@
+/* Main block begin*/
+.main-block {
+  margin: 0 auto;
+  text-align: center;
+  width: 1170px;
+  height: 555px;
+  position: relative;
+  background-color: #f2f2f2;
+  margin: 0 auto;
+}
+
+.category-block {
+  width: 675px;
+  height: 555px;
+  position: relative;
+  float: left;
+  background-color: #fff;
+}
+
+nav {
+  height: 555px !important;
+}
+
+.category-block-header {
+  width: 628px;
+  height: 23px;
+  font-size: 21px;
+  color: #4d4d4d;
+  text-align: left;
+  padding-top: 20px;
+  margin-left: 23px;
+  float: left;
+}
+
+.category-block-header::after {
+  content: '';
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 100%;
+  margin-top: -56px;
+  height: 2px;
+  background: #00a99d;
+  border-width: 0 10px;
+}
+
+.header-img {
+  float: right;
+  text-align: right;
+  margin-top: -45px;
+}
+
+.header-img img {
+  padding-left: 15px;
+  width: 19px;
+  height: 20px;
+}
+
+h1 {
+  font-size: 21px;
+  color: #00a99d;
+  text-align: left;
+  margin-left: 25px;
+  margin-top: 71px;
+  position: relative;
+}
+
+.faq_item {
+  float: left;
+  width: 700px;
+  min-height: 50px;
+  height: 100%;
+  margin-left: 0;
+  text-align: left;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 1px 0 10px 3px;
+}
+
+.faq_item_title {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  font-size: 21px;
+  position: relative;
+}
+
+.faq_show_all .faq_item_title {
+  font-weight: 900;
+  padding-left: 23px;
+  margin-top: 20px;
+}
+
+.faq_item_title_inner {
+  float: left;
+  font-weight: 700;
+  display: inline-block;
+  position: relative;
+  padding: 0 0 0 0;
+  cursor: pointer;
+}
+
+.faq_item_title_inner-date {
+  float: left;
+  color: #4D4D4D;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.faq_item_title_inner:hover:before {
+  -webkit-transform: translateY(1px);
+  -ms-transform: translateY(1px);
+  transform: translateY(1px);
+}
+
+.faq_item_title_inner:before {
+  position: absolute;
+  content: '';
+  right: -30px;
+  top: 3px;
+  width: 30px;
+  height: 100%;
+  background: url(../img/show.png) no-repeat center center;
+  cursor: pointer;
+  -webkit-transition: .2s;
+  -o-transition: .2s;
+  transition: .2s;
+  -webkit-transition-timing-function: ease-in-out;
+  -o-transition-timing-function: ease-in-out;
+  transition-timing-function: ease-in-out;
+}
+
+.faq_item_title_inner.open:before {
+  opacity: 0;
+}
+
+.faq_item_body {
+  font-size: 21px;
+  font-weight: 700;
+  padding: 0px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  display: none;
+}
+
+.clear {
+  clear: both;
+}
+
+.profile-header {
+  width: 300px;
+  height: 36px;
+  font-size: 21px;
+  color: #00A99D;
+  text-align: left;
+  margin-left: 25px;
+  margin-top: -6px;
+}
+
+.edit-block {
+  float: right;
+  padding-right: 117px;
+}
+
+.edit-block img {
+  width: 13px;
+  height: 13px;
+  padding-bottom: 0;
+}
+
+.profile-data {
+  float: left;
+  margin-top: 10px;
+  margin-left: 28px;
+  width: 600px;
+  height: 188px;
+}
+
+.profile-data::after {
+  content: '';
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 627px;
+  height: 1px;
+  background: #808080;
+  border-width: 0 10px;
+  margin-top: -248px;
+  margin-left: -3px;
+}
+
+.profile-data-item-header {
+  float: left;
+  font-size: 12px;
+  height: 22px;
+  text-align: left;
+  vertical-align: middle;
+  padding-bottom: 5px;
+}
+
+.profile-data-item {
+  padding-left: 5px;
+  font-size: 14px;
+  font-weight: 700;
+  float: left;
+  height: 22px;
+  text-align: left;
+  vertical-align: middle;
+  padding-bottom: 5px;
+}
+
+.profile-text {
+  font-size: 12px;
+  color: #00A99D;
+  text-align: left;
+  margin-top: 72px;
+}
+
+.profile-photo {
+  float: right;
+  width: 105px;
+  height: 120px;
+  position: relative;
+  bottom: 149px;
+  left: -11px;
+  padding-top: 5px;
+}
+
+.add-photo {
+  font-size: 12px;
+  color: #00A99D;
+  text-align: center;
+  padding-top: 2px;
+  width: 120px;
+  margin-left: -9px;
+}
+
+.profile-access-text {
+  font-size: 12px;
+  color: #4D4D4D;
+  text-align: left;
+  margin-left: 23px;
+  padding-left: 3px;
+  width: 650px;
+}
+
+.profile-acces-input {
+  width: 650px;
+  height: 50px;
+  position: relative;
+}
+
+.profile-acces-input input {
+  width: 297px;
+  float: left;
+  height: 40px;
+  padding-top: 2px;
+  padding-left: 10px;
+}
+
+.profile-acces-input input:first-child {
+  margin-top: 14px;
+  margin-left: 26px;
+  width: 191px;
+  height: 23px;
+  font-size: 12px;
+}
+
+.button-asses {
+  margin-top: 12px !important;
+  margin-left: 9px;
+  padding-left: 4px !important;
+  padding-top: 0 !important;
+  font-size: 11px;
+  width: 110px !important;
+  height: 32px !important;
+  color: #fff;
+  background: #00A99D;
+  display: block;
+  text-align: center;
+  font-weight: 700 !important;
+}
+
+.profile-acces-input input::-webkit-input-placeholder {
+  color: #999999;
+  font-size: 12px;
+}
+
+.profile-acces-input input:-ms-input-placeholder {
+  color: #999999;
+  font-size: 12px;
+}
+
+.profile-acces-input input::-ms-input-placeholder {
+  color: #999999;
+  font-size: 12px;
+}
+
+.profile-acces-input input::placeholder {
+  color: #999999;
+  font-size: 12px;
+}
+
+.profile-access-input input::-webkit-input-placeholder, .profile-access-input textarea::-webkit-input-placeholder {
+  color: #999999;
+}
+
+.profile-access-input input:-ms-input-placeholder, .profile-access-input textarea:-ms-input-placeholder {
+  color: #999999;
+}
+
+.profile-access-input input::-ms-input-placeholder, .profile-access-input textarea::-ms-input-placeholder {
+  color: #999999;
+}
+
+.profile-access-input input::placeholder, .profile-access-input textarea::placeholder {
+  color: #999999;
+}
+
+.profile-access-input input::-webkit-input-placeholder, .profile-access-input textarea::-webkit-input-placeholder {
+  color: #999999;
+}
+
+.profile-access-input input::-o-input-placeholder, .profile-access-input textarea::-o-input-placeholder {
+  color: #999999;
+}
+
+.profile-access-input input::-ms-input-placeholder, .profile-access-input textarea::-ms-input-placeholder {
+  color: #999999;
+}
+
+.profile-access-input input:focus {
+  border: 1px solid #CCCCCC;
+  -webkit-transition: .3s;
+  -o-transition: .3s;
+  transition: .3s;
+}
+
+.profile-access-cat {
+  width: 645px;
+  height: 30px;
+  font-size: 12px;
+  margin-left: 23px;
+}
+
+.profile-acceess-cat-1 {
+  float: left;
+  color: #4D4D4D;
+  font-weight: 700;
+  margin-top: 10px;
+  padding-left: 4px;
+}
+
+.profile-acceess-button {
+  color: #C1272D;
+  font-weight: 700;
+  margin-top: 14px;
+  float: right;
+  margin-top: 10px;
+  padding-right: 29px;
+}
+
+.profile-access-text-1 {
+  font-size: 12px;
+  color: #4D4D4D;
+  text-align: left;
+  margin-left: 24px;
+  padding-left: 3px;
+  width: 645px;
+  margin-top: 21px;
+}
+
+.profile-access-text-1::before {
+  content: '';
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 630px;
+  height: 1px;
+  background: #808080;
+  border-width: 0 10px;
+  margin-top: -24px;
+  margin-left: -6px;
+}
+
+/* Main block end*/
